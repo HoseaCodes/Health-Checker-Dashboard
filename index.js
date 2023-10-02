@@ -14,8 +14,10 @@ const app = express();
 const configCache = new NodeCache();
 const v = new Validator();
 const log = console.log;
+const cors = require('cors');
 
 app.use(express.static("public"));
+app.use(cors({ origin : '*'}))
 
 // Project components' ids and urls object
 const healthEndpointsSchema = {
@@ -122,9 +124,9 @@ app.post('/update', function (req, res) {
     res.status(204).end();
 });
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 4000, () => {
     // Application running port is 5000
-    log(chalk.blue.bgRed.bold("API Health Checker running at: http://localhost:5000"));
+    log(chalk.blue.bgRed.bold("API Health Checker running at: http://localhost:4000"));
 
     // initializing config files in cache
     loadConfigs();
