@@ -33,7 +33,9 @@
       "docs": false,
       "backups": false,
       "loadBalacing": false,
-      "highAvailability": false
+      "highAvailability": false,
+      "license": false,
+      "vsCodeSettings": false
     },
     "contact": "osanda@maxsoft.com"
   },
