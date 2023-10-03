@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>API Health Checker</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
+    <link href="img/favicon.png" rel="icon" type="image/png" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header class="fixed-top" id="header">
+        <div class="container d-flex align-items-center">
+            <h1 class="logo mr-auto">
+                <a href="index.html">API Health Checker</a>
+            </h1>
+        </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <section>
+            Hero
+        </section>
+        <section>
+            <h2>App Name</h2>
+            <div>
+                <p>Estimated Reliability:</p>
+                <p>How did we calculate this?</p>
+            </div>
+            <div>
+                <p>Estimated Production Readiness:</p>
+                <p>How did we calculate this?</p>
+            </div>
+            <div>
+                <p>Estimated Security:</p>
+                <p>How did we calculate this?</p>
+            </div>
+            <div>
+                <p>Estimated Scalibility:</p>
+                <p>How did we calculate this?</p>
+            </div>
+            <div>
+                <select name="" id="">
+                    <option selected value="">Change Apps</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Overall Roadmap or Reliability or Production Readiness or Security or Scalibility Roadmap
+            </h2>
+            <button>Roadmap Guide</button>
+            <div>
+                <div>
+                    <h3>Demo (90.0 Availability)</h3>
+                    <div>Progress bar</div>
+                </div>
+                <div>
+                    accordian
+                    <div>Development</div>
+                    <div>Infrastructure</div>
+                    <div>Observability</div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Deterministic (99.0 Availability)</h3>
+                    <div>Progress bar</div>
+                </div>
+                <div>
+                    accordian
+                    <div>Development</div>
+                    <div>Infrastructure</div>
+                    <div>Observability</div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Reactive (99.0 Availability)</h3>
+                    <div>Progress bar</div>
+                </div>
+                <div>
+                    accordian
+                    <div>Development</div>
+                    <div>Infrastructure</div>
+                    <div>Observability</div>
+                </div>
+            </div>
+        
+        </section>
+
+
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright
+                <span><a href="https://maxsoftlk.github.io/" target="_blank"><strong>MaxSoft</strong></a></span>. All Rights
+                Reserved.
+            </div>
+            <div class="credits">
+                Designed by
+                <a href="https://osandadeshan.github.com/" target="_blank">Osanda Deshan Nimalarathna</a>.
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+    
+    <a class="back-to-top" href="#"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/counterup/counterup.min.js"></script>
+    <script src="vendor/venobox/venobox.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    
+    <script src="js/components.js"></script>
+    
+    <script>
+        window["selectedEnv"] = "default";
+    </script>
+    <script>
+        function setDefaultEnv() {
+            fetch("/env/default", {
+                method: "POST",
+                headers: {
+                    "Access-Control-Allow-Origin": "*",
+                },
+            });
+        }
+
+        function selectEnv() {
+            var element = document.getElementById("envDropdown");
+            var environment = element.options[element.selectedIndex].value;
+            window["selectedEnv"] = environment;
+            setSelectedEnvironment(environment);
+        }
+    </script>
+    
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <script src="js/github.js"></script>
+</body>
+</html>
