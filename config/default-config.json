@@ -72,6 +72,222 @@
     "contact": "osanda@maxsoft.com"
   },
   {
+    "name": "Calorie Kitchen",
+    "description": "Static website",
+    "id": "caloriekitchen",
+    "environment": "sp",
+    "url": "https://hoseacodes-caloriekitchen.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "UI Heat",
+    "description": "Static website",
+    "id": "uiheat",
+    "environment": "sp",
+    "url": "https://uiheat.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "UI Heat Storybook",
+    "description": "Static website",
+    "id": "uiheat",
+    "environment": "sp",
+    "url": "https://storybook.uiheat.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "UI Heat SDK",
+    "description": "Static website",
+    "id": "uiheat",
+    "environment": "sp",
+    "url": "https://www.npmjs.com/package/uiheat",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "AI Quiz SDK",
+    "description": "Static website",
+    "id": "ai",
+    "environment": "sp",
+    "url": "https://www.npmjs.com/package/ai-quiz",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Social-Ring",
+    "description": "Static website",
+    "id": "ai",
+    "environment": "sp",
+    "url": "https://www.social-ring.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Kidvercity",
+    "description": "Static website",
+    "id": "ai",
+    "environment": "sp",
+    "url": "https://kidvercity.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Automated Delights",
+    "description": "Static website",
+    "id": "ai",
+    "environment": "sp",
+    "url": "https://automateddelights.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Patton Univercity",
+    "description": "Static website",
+    "id": "ai",
+    "environment": "sp",
+    "url": "https://inspiring-cucurucho-9ff3f0.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "COVID Tracker",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://hoseacodes-covidtracker.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Sorting Styles",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://hoseacodes-sortingstyles.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Basic JavaScript",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://fervent-neumann-926d64.netlify.app/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Crypto",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://reactcryptolive.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Github",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://hoseacodes-react-github.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Starwars",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://hoseacodes-starwars.netlify.app",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Social Ring App",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://apps.apple.com/us/app/social-ring/id1551446005",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Ambitious Concepts",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://ambitiousconcept.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Chef Betters",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://chefbetters.net/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "DJ Smoothly",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://djsmoothholy.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Hoseacodes",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://www.hoseacodes.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Portfolio",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://www.dominiquehosea.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Patton Univercity",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://pattonunivercity.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Sneaker API",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://sneaker-api-htx.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Expense Pattern API",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://expensepattern.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Lead generation API",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://acleadgeneration-d6957f321f1b.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "AC Marketing",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://ac-marketing-fe.herokuapp.com/login",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "AC Marketing API",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://ac-marketing-be.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
     "name": "Authentication Service",
     "description": "This service will be using to get authentication token.",
     "id": "auth",
