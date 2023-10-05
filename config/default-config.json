@@ -40,6 +40,22 @@
     "contact": "osanda@maxsoft.com"
   },
   {
+    "name": "TX Yard Games Website",
+    "description": "Application inspired by Houston Lawn Games - https://www.houstonlawngames.com/. The website offers resources for game enthusiasts, including game rules, equipment rentals, and event listings, making it a one-stop hub for anyone looking to enjoy outdoor gaming experiences in Houston. This service will be using to view, create, edit, and delete a user.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://tx-yard-games-fe.onrender.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "TX Yard Games Server",
+    "description": "Application inspired by Houston Lawn Games - https://www.houstonlawngames.com/. The website offers resources for game enthusiasts, including game rules, equipment rentals, and event listings, making it a one-stop hub for anyone looking to enjoy outdoor gaming experiences in Houston. This service will be using to view, create, edit, and delete a user.",
+    "id": "auth",
+    "environment": "prod",
+    "url": "https://tx-yard-games.onrender.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
     "name": "Authentication Service",
     "description": "This service will be using to get authentication token.",
     "id": "auth",
