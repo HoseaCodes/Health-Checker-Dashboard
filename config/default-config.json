@@ -52,7 +52,7 @@
     "description": "This Server will handle operation for TX Yard Games Website including but not limited to using to view, create, edit, and delete a user.",
     "id": "yardGames",
     "environment": "sp",
-    "url": "https://tx-yard-games.onrender.com",
+    "url": "https://tx-yard-games.onrender.com/health",
     "contact": "osanda@maxsoft.com"
   },
   {
@@ -68,7 +68,7 @@
     "description": "This Server will handle operation for User Website including but not limited to using to view, create, edit, and delete a user.",
     "id": "userManagement",
     "environment": "sp",
-    "url": "https://usermanagement-server-jl8n.onrender.com",
+    "url": "https://usermanagement-server-jl8n.onrender.com/health",
     "contact": "osanda@maxsoft.com"
   },
   {
