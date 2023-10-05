@@ -49,10 +49,26 @@
   },
   {
     "name": "TX Yard Games Server",
-    "description": " This Server will handle operation for TX Yard Games Website including but not limited to using to view, create, edit, and delete a user.",
+    "description": "This Server will handle operation for TX Yard Games Website including but not limited to using to view, create, edit, and delete a user.",
     "id": "yardGames",
     "environment": "sp",
     "url": "https://tx-yard-games.onrender.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "User Management",
+    "description": "This a user management application to handle all apps users.",
+    "id": "userManagement",
+    "environment": "sp",
+    "url": "https://usermanagement-8wql.onrender.com",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "User Management Server",
+    "description": "This Server will handle operation for User Website including but not limited to using to view, create, edit, and delete a user.",
+    "id": "userManagement",
+    "environment": "sp",
+    "url": "https://usermanagement-server-jl8n.onrender.com",
     "contact": "osanda@maxsoft.com"
   },
   {
