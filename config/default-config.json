@@ -1,47 +1,7 @@
 [
   {
-    "name": "Pull from github", 
-    "description": "Pull from github",
-    "id": "auth",
-    "environment": "prod",
-    "url": "https://intelliapi-mockserver.herokuapp.com/auth",
-    "urls": ["docs", "eot", "prod", "tests", "subdomains", "etc", "server", "frontend"],
-    "tags": "replaces all of the json files",
-    "deployedTo": "vercel, heroku, netlify",
-    "database": "mongoDb, fireBase",
-    "checklist": {
-      "inProd": false,
-      "hasBackend": false,
-      "liner": false,
-      "tests": false,
-      "versioning": false,
-      "CICD": false,
-      "security": false,
-      "dataManagement": false,
-      "cronJobs": false,
-      "monitoring": false,
-      "caching": false,
-      "codeSplitting": false,
-      "stateManagement": false,
-      "husky": false,
-      "errorHandling": false,
-      "alerting": false,
-      "dashboards": false,
-      "SLO": false,
-      "SLA": false,
-      "secretsManager": false,
-      "docs": false,
-      "backups": false,
-      "loadBalacing": false,
-      "highAvailability": false,
-      "license": false,
-      "vsCodeSettings": false
-    },
-    "contact": "osanda@maxsoft.com"
-  },
-  {
     "name": "TX Yard Games Website",
-    "description": "Application inspired by Houston Lawn Games - https://www.houstonlawngames.com/. The website offers resources for game enthusiasts, including game rules, equipment rentals, and event listings, making it a one-stop hub for anyone looking to enjoy outdoor gaming experiences in Houston. This service will be using to view, create, edit, and delete a user.",
+    "description": "Application inspired by Houston Lawn Games - https://www.houstonlawngames.com/.",
     "id": "yardGames",
     "environment": "sp",
     "url": "https://tx-yard-games-fe.onrender.com",
@@ -50,7 +10,7 @@
   {
     "name": "TX Yard Games Server",
     "description": "This Server will handle operation for TX Yard Games Website including but not limited to using to view, create, edit, and delete a user.",
-    "id": "yardGames",
+    "id": "yardGamesServer",
     "environment": "sp",
     "url": "https://tx-yard-games.onrender.com/health",
     "contact": "osanda@maxsoft.com"
@@ -66,8 +26,8 @@
   {
     "name": "User Management Server",
     "description": "This Server will handle operation for User Website including but not limited to using to view, create, edit, and delete a user.",
-    "id": "userManagement",
-    "environment": "sp",
+    "id": "userManagementServer",
+    "environment": "auth",
     "url": "https://usermanagement-server-jl8n.onrender.com/health",
     "contact": "osanda@maxsoft.com"
   },
@@ -90,23 +50,23 @@
   {
     "name": "UI Heat Storybook",
     "description": "Static website",
-    "id": "uiheat",
-    "environment": "sp",
+    "id": "uiheatStorybook",
+    "environment": "auth",
     "url": "https://storybook.uiheat.com",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "UI Heat SDK",
     "description": "Static website",
-    "id": "uiheat",
-    "environment": "sp",
+    "id": "uiheatSDK",
+    "environment": "auth",
     "url": "https://www.npmjs.com/package/uiheat",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "AI Quiz SDK",
     "description": "Static website",
-    "id": "ai",
+    "id": "aiSDK",
     "environment": "sp",
     "url": "https://www.npmjs.com/package/ai-quiz",
     "contact": "osanda@maxsoft.com"
@@ -114,39 +74,39 @@
   {
     "name": "Social-Ring",
     "description": "Static website",
-    "id": "ai",
-    "environment": "sp",
+    "id": "app",
+    "environment": "auth",
     "url": "https://www.social-ring.com",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "Kidvercity",
     "description": "Static website",
-    "id": "ai",
-    "environment": "sp",
+    "id": "kids",
+    "environment": "auth",
     "url": "https://kidvercity.com",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "Automated Delights",
     "description": "Static website",
-    "id": "ai",
-    "environment": "sp",
+    "id": "automated",
+    "environment": "auth",
     "url": "https://automateddelights.com",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "Patton Univercity",
     "description": "Static website",
-    "id": "ai",
-    "environment": "sp",
+    "id": "pu",
+    "environment": "auth",
     "url": "https://inspiring-cucurucho-9ff3f0.netlify.app",
     "contact": "osanda@maxsoft.com"
   },
   {
     "name": "COVID Tracker",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "covid",
     "environment": "prod",
     "url": "https://hoseacodes-covidtracker.netlify.app",
     "contact": "osanda@maxsoft.com"
@@ -154,7 +114,7 @@
   {
     "name": "Sorting Styles",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "sort",
     "environment": "prod",
     "url": "https://hoseacodes-sortingstyles.netlify.app",
     "contact": "osanda@maxsoft.com"
@@ -162,7 +122,7 @@
   {
     "name": "Basic JavaScript",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "basicJs",
     "environment": "prod",
     "url": "https://fervent-neumann-926d64.netlify.app/",
     "contact": "osanda@maxsoft.com"
@@ -170,7 +130,7 @@
   {
     "name": "Crypto",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "crypto",
     "environment": "prod",
     "url": "https://reactcryptolive.netlify.app",
     "contact": "osanda@maxsoft.com"
@@ -178,7 +138,7 @@
   {
     "name": "Github",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "github",
     "environment": "prod",
     "url": "https://hoseacodes-react-github.netlify.app",
     "contact": "osanda@maxsoft.com"
@@ -186,7 +146,7 @@
   {
     "name": "Starwars",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "starwars",
     "environment": "prod",
     "url": "https://hoseacodes-starwars.netlify.app",
     "contact": "osanda@maxsoft.com"
@@ -194,7 +154,7 @@
   {
     "name": "Social Ring App",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "sr-app",
     "environment": "prod",
     "url": "https://apps.apple.com/us/app/social-ring/id1551446005",
     "contact": "osanda@maxsoft.com"
@@ -202,7 +162,7 @@
   {
     "name": "Ambitious Concepts",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "ac",
     "environment": "prod",
     "url": "https://ambitiousconcept.com/",
     "contact": "osanda@maxsoft.com"
@@ -210,15 +170,15 @@
   {
     "name": "Chef Betters",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "chefb",
     "environment": "prod",
     "url": "https://chefbetters.net/",
     "contact": "osanda@maxsoft.com"
   },
   {
-    "name": "DJ Smoothly",
+    "name": "DJ Smooth Holy",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "djSmooth",
     "environment": "prod",
     "url": "https://djsmoothholy.com/",
     "contact": "osanda@maxsoft.com"
@@ -285,86 +245,6 @@
     "id": "auth",
     "environment": "prod",
     "url": "https://ac-marketing-be.herokuapp.com/",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Authentication Service",
-    "description": "This service will be using to get authentication token.",
-    "id": "auth",
-    "environment": "prod",
-    "url": "https://intelliapi-mockserver.herokuapp.com/auth",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "User Service",
-    "description": "This service will be using to view, create, edit, and delete a user.",
-    "id": "user",
-    "environment": "prod",
-    "url": "https://maxsoft-mock-server-demo.web.app/users/1",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Multimedia Service",
-    "description": "This service will be using to view, create, edit, and delete a photo.",
-    "id": "multimedia",
-    "environment": "uat",
-    "url": "https://jsonplaceholder.typicode.com/photos",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Currency Service",
-    "description": "This service will be using for all the career management functions.",
-    "id": "career",
-    "environment": "prod",
-    "url": "https://api.coindesk.com/v1/bpi/currentprice.json",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Metrics Service",
-    "description": "This service will be using get all metrics data.",
-    "id": "document",
-    "environment": "uat",
-    "url": "https://api.apis.guru/v2/metrics.json",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Albums Service",
-    "description": "This service will be using for all the album management functions.",
-    "id": "album",
-    "environment": "uat",
-    "url": "https://jsonplaceholder.typicode.com/albums",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Barcode Service",
-    "description": "This service will be using for all the barcode management functions.",
-    "id": "barcode",
-    "environment": "prod",
-    "url": "https://maxsoft-mock-server-demo.com/barcode",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Employee Service",
-    "description": "This service will be using for all the employee management functions.",
-    "id": "employee",
-    "environment": "uat",
-    "url": "http://dummy.restapiexample.com/api/v1/employees",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "ToDos Service",
-    "description": "This service will be using for all the todo management functions.",
-    "id": "todo",
-    "environment": "uat",
-    "url": "https://jsonplaceholder.typicode.com/todos/1",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Posts Service",
-    "description": "This service will be using for all the posts management functions.",
-    "id": "posts",
-    "environment": "uat",
-    "url": "https://jsonplaceholder.typicode.com/posts",
     "contact": "osanda@maxsoft.com"
   }
 ]

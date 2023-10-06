@@ -41,6 +41,7 @@ app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
+// Update the env dropdown
 app.get("/config/:env", function (req, res) {
     let healthCheckEndpoints = null;
     const reqConfigEnv = req.params.env || 'default';
@@ -62,6 +63,7 @@ app.get("/config/:env", function (req, res) {
     }
 });
 
+// Health check running every hour.
 app.get("/health/:env/:id", function (req, res) {
     const id = req.params.id;
     const reqConfigEnv = req.params.env;
@@ -82,12 +84,14 @@ app.get("/health/:env/:id", function (req, res) {
                 res.status(200).end();
             })
             .catch((e) => {
-                console.error(`Health check request failed for ${id} with error`, e.toJSON());
+                console.error(e)
+                console.error(`Health check request failed for ${id} with error`);
                 res.status(e && e.response ? e.response.status : 500).end();
             });
     }
 });
 
+// Cache stats
 app.get('/stats', function (req, res) {
     res.json({
         cache: configCache.getStats()

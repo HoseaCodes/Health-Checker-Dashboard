@@ -1,34 +1,66 @@
 [
   {
-    "name": "Authentication Service",
+    "name": "Social-Ring",
+    "description": "Static website",
+    "id": "app",
+    "environment": "prod",
+    "url": "https://www.social-ring.com",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "Automated Delights",
+    "description": "Static website",
+    "id": "automated",
+    "environment": "prod",
+    "url": "https://automateddelights.com",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "Social Ring App",
+    "description": "This service will be using to get authentication token.",
+    "id": "sr-app",
+    "environment": "prod",
+    "url": "https://apps.apple.com/us/app/social-ring/id1551446005",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "Ambitious Concepts",
+    "description": "This service will be using to get authentication token.",
+    "id": "ac",
+    "environment": "prod",
+    "url": "https://ambitiousconcept.com/",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "Chef Betters",
+    "description": "This service will be using to get authentication token.",
+    "id": "chefb",
+    "environment": "prod",
+    "url": "https://chefbetters.net/",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "DJ Smooth Holy",
+    "description": "This service will be using to get authentication token.",
+    "id": "djSmooth",
+    "environment": "prod",
+    "url": "https://djsmoothholy.com/",
+    "contact": "info@ambitiousconcept.com"
+  },
+  {
+    "name": "Hoseacodes",
     "description": "This service will be using to get authentication token.",
     "id": "auth",
     "environment": "prod",
-    "url": "https://intelliapi-mockserver.herokuapp.com/auth",
-    "contact": "osanda@maxsoft.com"
+    "url": "https://www.hoseacodes.com/",
+    "contact": "info@ambitiousconcept.com"
   },
   {
-    "name": "User Service",
-    "description": "This service will be using to view, create, edit, and delete a user.",
-    "id": "user",
+    "name": "Portfolio",
+    "description": "This service will be using to get authentication token.",
+    "id": "auth",
     "environment": "prod",
-    "url": "https://maxsoft-mock-server-demo.web.app/users/1",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Currency Service",
-    "description": "This service will be using for all the career management functions.",
-    "id": "career",
-    "environment": "prod",
-    "url": "https://api.coindesk.com/v1/bpi/currentprice.json",
-    "contact": "osanda@maxsoft.com"
-  },
-  {
-    "name": "Barcode Service",
-    "description": "This service will be using for all the barcode management functions.",
-    "id": "barcode",
-    "environment": "prod",
-    "url": "https://maxsoft-mock-server-demo.com/barcode",
-    "contact": "osanda@maxsoft.com"
+    "url": "https://www.dominiquehosea.com/",
+    "contact": "info@ambitiousconcept.com"
   }
 ]

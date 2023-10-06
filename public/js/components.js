@@ -28,8 +28,9 @@ const generateServiceTiles = () => {
     const env = window["selectedEnv"];
     const servicesCount = services.length;
     let loadedServicesCount = 0;
+    const oneHour = (60 * 60) * 1000
 
-    document.getElementById("envDropdown").disabled = true;
+    // document.getElementById("envDropdown").disabled = true;
     // Looping through the api endpoints and get the status
     services.forEach((service) => {
         fetch("/health/" + env + "/" + service.id, {
@@ -52,11 +53,13 @@ const generateServiceTiles = () => {
                     if (servicesCount === loadedServicesCount) {
                         document.getElementById("envDropdown").disabled = false;
                     }
-                }, 800);
+                // }, 800);
+                }, oneHour);
             });
     });
 };
 
+// From env dropdown 
 const setSelectedEnvironment = (env) => {
     setTimeout(() => {
         console.log("Waiting for selected environment");
