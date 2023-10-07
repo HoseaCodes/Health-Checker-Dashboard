@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas</title>
+    <link href="img/favicon.png" rel="icon" type="image/png" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+    
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="vendor/aos/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+        main {
+            background-image: url(https://i.imgur.com/xZaKrYt.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+        }
+        .projectTitle {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .projectTitle hr, .projectSubtitle hr {
+            width: 30rem;
+            color: white;
+            border-color: white;
+            border-width: unset;
+        }
+        .projectTitle hr:before{
+            content:"ATLAS";
+            display: block;
+            height: 2px;
+            width: 130px;
+            position: absolute;
+            top: 43%;
+            left: 10%;
+            font-size: xxx-large;
+        }
+
+        .projectTitle hr:after{
+            content:"SRE";
+            display: block;
+            height: 2px;
+            width: 130px;
+            position: absolute;
+            top: 39%;
+            left: 10%;
+            font-size: xx-large;
+        }
+
+        .projectSubtitle hr:after {
+            content:"Aligning Team Legacies Around SRE";
+            display: block;
+            height: 2px;
+            position: absolute;
+            right: 7%;
+            font-size: inherit;
+        }
+        
+        select {
+            border-color: white;
+        }
+
+        .select2 {
+            width: 25% !important;
+        }
+        
+        </style>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <!-- ======= Header ======= -->
+    <header class="fixed-top" id="header">
+        <div class="container d-flex align-items-center">
+            <h1 class="logo mr-auto">
+                <a href="index.html">API Health Checker</a>
+            </h1>
+        </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <div class="projectTitle">
+            <hr>
+        </div>
+        <select id="appDropdown" onchange="selectApp()" class="form-control js-example-tags">
+            <option selected="selected">Choose Your App</option>
+        </select>
+        <div class="projectSubtitle">
+            <hr>
+        </div>
+    </main>
+    <script src="js/github.js"></script>
+    <script type="text/javascript">
+        $(".js-example-tags").select2({
+            tags: true
+        });
+    </script>
+</body>
+</html>

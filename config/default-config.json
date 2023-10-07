@@ -186,7 +186,7 @@
   {
     "name": "Hoseacodes",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "hoseacodes",
     "environment": "prod",
     "url": "https://www.hoseacodes.com/",
     "contact": "osanda@maxsoft.com"
@@ -194,7 +194,7 @@
   {
     "name": "Portfolio",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "portfolio",
     "environment": "prod",
     "url": "https://www.dominiquehosea.com/",
     "contact": "osanda@maxsoft.com"
@@ -202,7 +202,7 @@
   {
     "name": "Patton Univercity",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "pu",
     "environment": "prod",
     "url": "https://pattonunivercity.herokuapp.com/",
     "contact": "osanda@maxsoft.com"
@@ -210,7 +210,7 @@
   {
     "name": "Sneaker API",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "sneakerAPI",
     "environment": "prod",
     "url": "https://sneaker-api-htx.herokuapp.com/",
     "contact": "osanda@maxsoft.com"
@@ -218,7 +218,7 @@
   {
     "name": "Expense Pattern API",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "expressPatternAPI",
     "environment": "prod",
     "url": "https://expensepattern.herokuapp.com/",
     "contact": "osanda@maxsoft.com"
@@ -226,7 +226,7 @@
   {
     "name": "Lead generation API",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "leadGen",
     "environment": "prod",
     "url": "https://acleadgeneration-d6957f321f1b.herokuapp.com/",
     "contact": "osanda@maxsoft.com"
@@ -234,7 +234,7 @@
   {
     "name": "AC Marketing",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "acMarketing",
     "environment": "prod",
     "url": "https://ac-marketing-fe.herokuapp.com/login",
     "contact": "osanda@maxsoft.com"
@@ -242,9 +242,25 @@
   {
     "name": "AC Marketing API",
     "description": "This service will be using to get authentication token.",
-    "id": "auth",
+    "id": "acMarketingAPI",
     "environment": "prod",
     "url": "https://ac-marketing-be.herokuapp.com/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Woodsman",
+    "description": "This service will be using to get authentication token.",
+    "id": "woodsman",
+    "environment": "prod",
+    "url": "https://woodsman.vercel.app/",
+    "contact": "osanda@maxsoft.com"
+  },
+  {
+    "name": "Forster",
+    "description": "This service will be using to get authentication token.",
+    "id": "forster",
+    "environment": "prod",
+    "url": "https://forester-0vee.onrender.com",
     "contact": "osanda@maxsoft.com"
   }
 ]
